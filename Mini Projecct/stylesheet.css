@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1099px;
+    position: absolute;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(4, 14, 141);
+    height: 70px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: fixed;
+    opacity: 0.9;
+    z-index: 1;
+}
+.logo{
+    padding-top: 0;
+}
+
+.logo img{
+    height: 80px;
+    width: 60px;
+    float: left;
+    margin-left: 140px;
+}
+.logo p{
+    font-size: 30px;
+    color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 0;
+}
+.header-right a{
+    float: right;
+    color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    transition: all 0.5s;
+}
+.header-right a:hover{
+    color: black;
+}
+.container{
+    background-color: rgb(4, 14, 141);
+    height: 550px;
+    width: 100%;
+    padding-left: 250px;
+}
+.container img {
+    height: 350px;
+    width: 25%;
+    float: left;
+    padding-top: 130px;
+    margin-left: 10px;
+}
+.main1{
+    background-color: white;
+    width: 80%;
+    height: 400px;
+    margin: -30px 240px
+}
+.main1 img{
+    height:350px;
+    width: 50%;
+    position: absolute;
+    
+}
+.main1 p{
+    float: right;
+    padding-left: 53%;
+    position: absolute;
+    margin-top: 70px;
+    font-size: 12px;
+}
+.main1 h4{
+    float: right;
+    position: relative;
+    padding-top: 0;
+    padding-left: 66%;
+    color: black;
+}
+.main1 span{
+    border: 1px solid blue;
+    float: right;
+    position: static;
+    margin-top: 150px;
+    font-size: 12px;
+    color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 40px;
+}
+.main1 span:hover{
+    background-color: blue;
+    color: white;
+    transition: 00.5s;
+}
+.main1 i{
+    float: right;
+    position: static;
+    color: blue;
+    margin-right: 20px;
+    margin-top: 160px;
+}
+.honours{
+    background-color: rgb(4, 14, 141);
+    height: 350px;
+    width: 100%;
+    padding-left: 250px;
+    margin-top: -70px;
+    z-index: -4;
+}
+.honours li{
+    font-size: 130px;
+    color: white;
+    padding: 30px 40px;
+    list-style: none;
+}
+.honours h3{
+    color: white;
+    padding-top: 30px;
+}
+.honours p{
+    float: left;
+    color: white;
+    font-size: 20px;
+}
+.honours .seri-a{
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.honours .ueropa-league{
+    margin-top: -50px;
+    margin-left: 250px;
+}
+.honours .italian{
+    margin-top: -50px;
+    margin-left: 450px;
+}
+.honours .world-cup{
+    margin-top: -50px;
+    margin-left: 620px;
+}
+.sponsor{
+    background-color: rgb(18, 18, 18);
+    height: 390px;
+    width: 100%;
+    padding-left: 250px;
+}
+.sponsor img{
+    height: 70px;
+    width: 80px;
+    float: left;
+    padding-left: 80px;
+}
+.lenovo img{
+    padding-top: 160px;
+    margin-left: 40px;
+}
+.nike img{
+    height: 30px;
+    padding-top: 50px;
+    padding-left: 90px;
+}
+.socios img{
+    padding-left: 120px;
+    padding-top: 40px;
+}
+.pirelli img{
+    padding-top: 240px;
+    margin-left: -220px;
+}
+.ea img{
+    padding-top: 240px;
+    margin-left: -380px;
+}
+.dgbits img{
+padding-top: 160px;
+padding-left: 0px;
+}
+
+.lenovo img:hover{
+    padding-top: 160px;
+    margin-left: 40px;
+    height: 100px;
+    width: 90px;
+    transition: 0.5s;
+
+}
+.nike img:hover{
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 90px;
+    width: 70px;
+}
+.socios img:hover{
+    padding-left: 120px;
+    padding-top: 40px;
+    height: 100px;
+    width: 90px;
+    transition: 0.5s;
+}
+.pirelli img:hover{
+    padding-top: 240px;
+    margin-left: -220px;
+    height: 100px;
+    width: 90px;
+    transition: 0.5s;
+}
+.ea img:hover{
+    padding-top: 240px;
+    margin-left: -380px;
+    height: 100px;
+    width: 90px;
+    transition: 0.5s;
+}
+.dgbits img:hover{
+padding-top: 160px;
+padding-left: 0px;
+height: 100px;
+width: 90px;
+transition: 0.5s;
+}
+footer{
+    background-color: rgb(18, 18, 18);
+    height: 390px;
+    width: 100%;
+    padding-left: 250px;
+    border-top: 4px solid blue;
+}
+.club a {
+    color: white;
+    margin-left: -150px;
+
+}
+.komentar{
+    float: right;
+    margin-top: -250px;
+    padding-right: 100px;
+    
+}
+.text-komen{
+    color: white;
+    padding-left: 600px;
+    margin-top: -190px;
+}
+.submit, .reset{
+    background-color: rgb(39, 69, 206);
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: white;
+    margin: 104px 0;
+    opacity: 0.8;
+}
+.reset{
+    margin-left: 850px;
+    position: absolute;
+}
+.submit{
+    margin-left: 750px;
+    position: absolute;
+}
+.dark-mode {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding-top: -900px;
+  }
+  .logo button{
+      border-radius: 10px;
+      background-color: rgb(4, 14, 141);
+      padding: 10px 20px;
+      margin-left: 90px;
+      margin-top: 20px;
+      float: left;
+      opacity: 0.9;
+      color: white;
+  }
+  .dark-mode .main1{
+      background-color: rgb(18, 18, 18);
+      color: white;
+  }
+  .dark-mode .main1 h4{
+      color: white;
+  }
+  .menu-icon{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 30px 10px;
+    display: none;
+  }
+  header .menu-icon{
+      display: none;
+  }

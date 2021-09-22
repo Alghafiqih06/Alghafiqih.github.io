@@ -1,0 +1,14 @@
+@media all and (max-width:1000px){
+    .header.right{
+        width: 25%;
+
+    }
+    .container img{
+    width: 50%;
+    
+    }
+    .logo img{
+        padding-left: 0;
+        position: relative;
+    }
+}
